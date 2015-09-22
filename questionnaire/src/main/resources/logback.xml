@@ -14,10 +14,10 @@
 	<appender name="FILE"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<Encoding>UTF-8</Encoding>
-		<file>${LOG_HOME}/base.log</file>
+		<file>${LOG_HOME}/questionnaire.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/base.log.%d{yyyy-MM-dd}.log.gz
+			<FileNamePattern>${LOG_HOME}/questionnaire.log.%d{yyyy-MM-dd}.log.gz
 			</FileNamePattern>
 			<MaxHistory>30</MaxHistory>
 		</rollingPolicy>
@@ -31,10 +31,10 @@
 	<appender name="JOBFILE"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<Encoding>UTF-8</Encoding>
-		<file>${LOG_HOME}/basesjob.log</file>
+		<file>${LOG_HOME}/questionnairejob.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!--日志文件输出的文件名 -->
-			<FileNamePattern>${LOG_HOME}/news.log.%d{yyyy-MM-dd}.log.gz
+			<FileNamePattern>${LOG_HOME}/questionnaire.log.%d{yyyy-MM-dd}.log.gz
 			</FileNamePattern>
 			<MaxHistory>30</MaxHistory>
 		</rollingPolicy>
