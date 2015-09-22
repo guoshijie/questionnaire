@@ -8,6 +8,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+/**
+ * @ClassName NewsController 
+ * @Description TODO
+ * @author guoshijie 
+ * @date 2015年9月22日 下午1:59:55
+ */
 @Controller
 public class NewsController extends AbstractBaseController {
 
