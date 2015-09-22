@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<contents>
+	<menus>
+		<!-- 新华社评论后台菜单 begin -->
+		<menu>
+			<level>1</level>
+			<parent>ArticleManage</parent>
+			<value>ArticleManage</value>                <!--    一级菜单  文章管理 -->
+			<url>/article/article_list</url>
+		</menu>
+		
+		<menu>
+			<level>1</level>
+			<parent>CommentManage</parent>
+			<value>CommentManage</value>          <!--   一级菜单  评论管理 -->
+			<url>none</url>
+		</menu>
+		<menu>
+			<level>2</level>
+			<parent>CommentManage</parent>
+			<value>CommentPre</value>     <!--    二级菜单  评论管理 -->
+			<url>/common_comment/common_comment_list</url>
+		</menu>
+		<menu>
+			<level>1</level>
+			<parent>adminUserManage</parent>
+			<value>adminUserManage</value>          <!--   一级菜单  管理员管理 -->
+			<url>none</url>
+		</menu>
+		<menu>
+			<level>2</level>
+			<parent>adminUserManage</parent>
+			<value>adminUserList</value>            <!--   二级菜单  管理员管理 -->
+			<url>/user/userList</url>
+		</menu>
+		<menu>
+			<level>1</level>
+			<parent>publishManage</parent>
+			<value>publishManage</value>          <!--   一级菜单  发布管理 -->
+			<url>none</url>
+		</menu>
+		<menu>
+			<level>2</level>
+			<parent>publishManage</parent>
+			<value>refreshArticleList</value>            <!--   二级菜单  发布管理 -->
+			<url>/index</url>
+		</menu>
+		<menu>
+			<level>1</level>
+			<parent>PerformanceManage</parent>
+			<value>PerformanceManage</value>                <!--    一级菜单  绩效管理 -->
+			<url>/article/jixiao</url>
+		</menu>
+		
+	</menus>
+</contents>

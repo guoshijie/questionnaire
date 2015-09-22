@@ -1,0 +1,11 @@
+.classpath
+.project
+.settings/
+.DS_Store
+../.DS_Store
+.gradle/
+/build/
+/bin/
+.springBeans
+WEB-INF/
+/doc/
